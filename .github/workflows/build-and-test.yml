@@ -19,8 +19,8 @@ jobs:
 
       - name: Run tests
         run: |
-          # Add your test commands here
+          poetry run pytest tests/  # Run tests using pytest
 
       - name: Build and package
         run: |
-          # Add your build and packaging commands here
+          poetry build  # Build the package using Poetry
