@@ -24,7 +24,7 @@ A Python tool to fetch research papers from PubMed and filter those with authors
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/get-papers-list.git
+   git clone https://github.com/srinivassarkar/get-papers-list.git
    ```
 
    ```
