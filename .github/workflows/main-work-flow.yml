@@ -15,7 +15,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install poetry
-          poetry install --dev  # Ensures pytest and dev dependencies are installed
+          poetry install 
 
       - name: Run tests
         run: |
