@@ -15,8 +15,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install poetry
-          poetry install --no-root --dev  # Ensures pytest and dev dependencies are installed
-
+          poetry install 
       - name: Run tests
         run: |
           poetry run pytest tests/  # Runs the test suite
